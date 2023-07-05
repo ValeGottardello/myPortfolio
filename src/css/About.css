@@ -1,0 +1,135 @@
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+}
+.about-sect{
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 10px -1px rgba(0,0,0,0.75);
+}
+.details-about-sec {
+    display: flex;
+    flex-direction: c;
+    gap: 30px;
+    margin: 20px 20px;
+}
+.details-about-sec  h3 {
+    font-size: 1.3rem;
+    text-transform: inherit!important;
+}
+.about-wrapper h3{
+    width: fit-content;
+    text-transform: uppercase;
+    padding-inline: 5px;
+}
+.subtitle-about {
+    font-size: 1.6rem;
+}
+.light .about-wrapper h3 span svg {
+    margin-bottom: 2px;
+    color: #5c1921;
+}
+.light .about-wrapper h3 span  {
+    color: #d2bec0;
+}
+.light .myname {
+    border-bottom: 2px inset rgb(219, 203, 198);
+    color: rgba(117, 44, 53, 0.908);
+}
+.light .presentation{
+    color: #ac9295;
+    font-size: 1.8rem;
+}
+.dark .about-sect p {
+    color: #d2bec0;
+}
+.dark .about-wrapper h3 span svg {
+    margin-bottom: 2px;
+    color: #f66e1a;
+}
+.dark .about-wrapper h3 span  {
+    color: #d2bec0;
+}
+.dark .myname {
+    border-bottom: 2px inset rgb(219, 203, 198);
+    color: #f66e1a;
+}
+.dark .presentation{
+    color: white;
+    font-size: 1.8rem;
+}
+@media screen and (max-width: 1320px) {
+    .about-wrapper{
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+}
+@media screen and (max-width: 740px) {
+    .main .slides .about-sect h2{
+        font-size: 1.5rem;
+    }
+
+    .main .slides .about-sect p{
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    .details-about-sec {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .about-wrapper{
+        width: 100%;
+    }
+    .about-wrapper h3{
+        width: 100%;
+    }
+}
+.light .about-wrapper h2{
+    width: fit-content;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgba(117, 44, 53, 0.38);
+    border-bottom: 1px inset var(--cardet);
+    padding: 15px;
+}
+.light .about-wrapper h3{
+    color: white;
+    background-color: rgba(117, 44, 53, 0.756);
+} 
+.dark .about-wrapper h3{
+    color: #d2bec0;
+    background-color: #46434c7d;
+} 
+
+.dark .about-wrapper h2{
+    width: fit-content;
+    align-self: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: white;
+    border-bottom: 1px inset var(--cardet);
+    padding: 15px;
+}
+.light .main .about-sect{
+    background-color: rgba(126, 91, 95, 0.159);
+    color: var(--cardet);
+    border: 2px outset white;
+}
+.dark .main .about-sect{
+    background-color: rgba(129, 103, 106, 0.185);
+    color: white;
+    border: 2px outset var(--orange); 
+}
+
+

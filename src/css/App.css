@@ -1,0 +1,127 @@
+@import url('variables.css');
+
+/* body {
+    background-image: url(/public/images/background.svg);
+} */
+.main {
+    width: 100%;
+}
+.App {
+        font-family: var(--font-text);
+}
+.App  *{
+    list-style: none;
+    text-decoration: none;
+}
+.mode{
+    margin: 10px;
+
+}
+.mode button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.light aside ul li a{
+    color: var(--cardet);
+}
+.dark aside ul li a{
+    color: var(--orange);
+}
+
+
+@media only screen and (max-width: 900px) {
+    footer{
+        display: none;
+    }
+}
+h1,h2{
+    font-family: var(--font-titles);
+}
+
+.main {
+    scroll-snap-type: y mandatory;
+}
+  
+.slides {
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+@media screen and (max-width: 1060px) {
+    .slides {
+        height: fit-content!important;
+        /* margin: 70px 0; */
+    }
+}
+footer {
+   width: 50%;
+   margin:0 auto;
+}
+footer ul {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.light footer ul li a svg{
+    color: var(--cardet);
+}
+.dark footer ul li a svg{
+    color: var(--orange);
+}
+.arrow{
+    margin-top:20px ;
+    align-self: center;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 18px;
+    animation: 
+    blink2 1s infinite;
+}
+@keyframes blink2 {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+  }
+.arrow svg {
+    font-size: 1.5rem;   
+}
+
+.light .arrow {
+    background-color: var(--cardet);
+}
+.arrow svg path{
+    color: white;
+}
+ .arrow {
+    color: white;
+}
+ .arrow div {
+    color: white;
+}
+
+.dark .arrow {
+    background-color: var(--orange);
+}
+.arrow svg path{
+    color: white;
+}
+.arrow:active{
+    color: white;
+}

@@ -1,0 +1,91 @@
+
+.dark{
+    background: linear-gradient(to bottom, rgb(28, 25, 34) ,rgb(53, 54, 63));
+    /* background-image: url(/public/images/background.svg), linear-gradient(to bottom, rgb(28, 25, 34) ,rgb(53, 54, 63)); */
+}
+
+.dark .footer-title, .dark .aside-title{
+    color: rgba(229, 229, 231, 0.212);
+}
+.dark footer div ul a{
+    color: var(--orange);
+}
+.dark footer div ul li a:hover {
+   color:white;
+}
+.dark footer div ul li:hover {
+    background-color: rgb(158, 69, 57);
+    border-radius: 10px;
+ }
+.dark .main aside .mode {
+    background-color:#f66e1a79;
+    border: 2px inset var(--ultra-violet);
+}
+.dark .main aside .mode:active{
+    background-color: #F2DFD9ff;
+}
+
+.dark .main div div .slides .about-sect{
+    background-color: rgba(126, 91, 95, 0.159);
+    color: rgba(255, 255, 255, 0.95);
+    border: 2px outset var(--cardet);
+}
+
+.dark .main  .slides .about-sect h2{
+    color: white;
+    text-align: center;
+    border: 2px outset var(--fucsia);
+    
+}
+.dark .main .slides .about-sect div a {
+    color: white;
+}
+
+.dark .main  .education article h2{
+    color: white;
+    background-color: var(--french-gray);
+    border: 1px outset var(--orange);
+}
+.dark .main .education .skills-icon{
+    background-color: #a9a7a7aa;
+    border-radius: 50%;
+    border: 2px outset rgba(242, 223, 217, 0.6);
+    padding: 5px;
+    margin: 10px 0;
+} 
+
+.dark .education article ul li{
+    list-style: none;
+}
+
+
+.dark .welcome-section .welcome-info .cv{
+    background-color: var(--orange);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px outset rgba(239, 21, 105, 0.6);
+}
+.dark .welcome-section .welcome-info .cv a {
+    color: white;
+}
+.dark .welcome-section .welcome-info .cv:active, .dark .welcome-section .welcome-info .cv:focus, .dark .welcome-section .welcome-info .cv:hover{
+    background-color:var(--fucsia);
+    color: white;
+}
+.dark .welcome-section .welcome-info a, .dark  .contact-list a, .dark .contact-list svg, .dark .contact-sect h3 {
+    text-decoration: none;
+    color: white;
+}
+
+
+.dark .other-exp-sect div ul li{
+    color: rgb(249, 205, 182);
+}
+.dark .other-exp-sect div {
+    padding: 10px;
+    background-color: rgba(126, 91, 95, 0.185);
+}
+.dark .other-exp-sect div h3{
+    font-family: var(--font-titles);
+}
+

@@ -1,0 +1,35 @@
+.light main .mode {
+    background-color: #7E5B5Fff;
+    border: 2px inset #F2DFD9ff;
+}
+.light main .mode:active{
+    background-color: #F2DFD9ff;
+}
+
+.light main section div div div .education {
+    background-color: rgba(126, 91, 95, 0.159);
+    color: rgba(255, 255, 255, 0.95);
+    border: 2px outset var(--cardet);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.light main section div div div .education article h2 {
+    background-color: var(--cardet);
+    border: 2px outset rgba(242, 223, 217, 0.6);
+}
+
+
+.light main section div div div .education article ul li{
+    list-style: none;
+}
+
+.light main section div div .welcome-section .welcome-info div{
+    background-color: rgba(126, 91, 95, 0.159);
+    color: rgba(255, 255, 255, 0.95);
+    border: 2px outset  var(--cardet);;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+ 
+

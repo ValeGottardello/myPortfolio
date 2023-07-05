@@ -1,0 +1,232 @@
+.projects{
+    width: 80%;
+    margin: 30px auto;
+}
+.projects li button{
+    font-size:0.9rem;
+    text-transform: uppercase;
+    font-family: var(--font-titles);
+}
+.light .projects li button:hover{
+    background-color: var(--cardet);
+    color: white;
+    border-radius: 10px;
+    border: 1px outset rgba(242, 223, 217, 0.6); 
+}
+.project-card{
+    padding: 20px;
+    box-shadow: 4px 2px 18px -6px rgba(0,0,0,0.75);
+    height: 100%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.tab-pane{
+    width: 80%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1060px) {
+    .project-card{
+        grid-template-columns: 1fr;    
+        margin: 20px auto;
+        padding: 20px;
+
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .main #projects h1 {
+        font-size: 1.8rem;
+    }
+}
+    
+.project-card .screen img {
+    width: 100%;
+    height: 100%;
+}
+.project-card .screen iframe {
+    width: 100%;
+    height: 394px;
+}
+
+.skills-used{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skills-used img {
+    width: 90px;
+    height: 90px;
+    margin:0 5px;
+}
+
+.info-project{
+    /* gap: 86px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.nav-tabs {
+    justify-content: space-between;
+}
+
+
+.project-card div h3 {
+    font-family: var(--font-titles);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.tictactoe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.light .nav-tabs li button {
+    color: var( --rose-taupe);
+    border-inline-end-color: #b3b1b6e1!important;
+    border-inline-end-width: 2px!important;
+}
+
+
+.light .nav-tabs li button:hover {
+    background-color: var(--cardet);
+    color: var( --champagne-pink);
+}
+.light .project-card div h3{
+    color: var(--cardet);
+}
+
+.light .project-card div p{
+    color: var(--cardet);
+}
+.light .project-card div a{
+    color: var(--cardet);
+    text-decoration: none;
+    background-color: rgb(250, 246, 244);
+    border-radius: 20px;
+    border: 2px outset rgba(242, 223, 217, 0.6);
+    width: fit-content;
+    padding: 10px;
+}
+.light .project-card div a:hover{
+    background-color: var(--cardet);
+    color: white;
+}
+
+.light .project-card div .skills-used img{
+    background-color: rgba(250, 246, 244, 0.5);
+    border-radius: 50%;
+    border: 2px outset rgba(242, 223, 217, 0.6);
+    padding: 5px;
+}
+.light .skills-used img {
+    background-color: rgb(250, 246, 244);
+    border-radius: 20px;
+    border: 2px outset rgba(242, 223, 217, 0.6);
+    padding: 10px;;
+}
+.dark .skills-used img {
+    background-color: rgba(250, 246, 244, 0.252);
+    border-radius: 20px;
+    border: 2px outset rgba(242, 223, 217, 0.6);
+    padding: 10px;;
+}
+.dark .project-card div h3{
+    color: var(--orange);
+}
+.dark .nav-tabs li button {
+    color: var(--platinum);
+    border-inline-end-color: #b3b1b6e1!important;
+    border-inline-end-width: 2px!important;
+}
+
+.dark .nav-tabs li button:hover {
+    background-color: rgba(255, 255, 255, 0.258);
+    color: var(--orange);
+}
+
+.dark .project-card div p{
+    color: white;
+}
+.dark .project-card div a{
+    color: white;
+    text-decoration: none;
+    background-color: var(--orange);
+    border-radius: 20px;
+    border: 2px outset rgba(239, 21, 105, 0.6);
+    width: fit-content;
+    padding: 10px;;
+}
+.dark .project-card div a:hover{
+    background-color: var(--cardet);
+    color: white;
+}
+
+.dark .project-card div .skills-used img{
+    background-color: rgba(250, 246, 244, 0.5);
+    border-radius: 50%;
+    border: 2px outset rgba(242, 223, 217, 0.6);
+    padding: 5px;
+}
+.github-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.github-link a {
+    margin:10px 0;
+    text-transform: uppercase;
+    font-family:var(--font-titles);
+    font-size: 0.8rem;
+} 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white!important;
+    background-color: #b3b1b6e1!important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: var(--font-titles);
+    text-transform: uppercase;
+}
+#projects h1 {
+    font-family: var(--font-titles);
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0;
+    padding-bottom: 20px;
+}
+
+.light #projects h1 {
+    color: var(--cardet);
+    border-bottom: 1px solid var(--cardet);
+
+}
+#projects h2 {
+    font-family: var(--font-titles);
+    text-transform: uppercase;
+    text-align: center;
+}
+.light #projects h2{
+    color: var(--cardet);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--cardet);
+}
+.dark #projects h2{
+    color: var(--orange);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--orange);
+}
