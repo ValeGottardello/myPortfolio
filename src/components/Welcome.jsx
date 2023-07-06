@@ -24,7 +24,7 @@ export default function Welcome () {
                                                 whileTap={{ scale: 1.1 }}
                                                 drag="x"
                                                 dragConstraints={{ left: -100, right: 100 }}>
-                            <a href="/cv/resume_Gottardello.pdf" target="_blank"> <FaRegClipboard/> Check my resume!</a>
+                            <a href="/cv/cv_Valentina.pdf" target="_blank"> <FaRegClipboard/> Check my resume!</a>
                         </motion.button>
                         <Arrow page={"#about"}/>
                     </div>
