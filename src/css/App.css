@@ -125,3 +125,15 @@ footer ul {
 .arrow:active{
     color: white;
 }
+.light .techstack{
+    color: var(--cardet);
+    background-color: #F2DFD9ff!important;
+    margin-bottom: 0;
+    padding-bottom: 0!important;
+    width: fit-content!important;
+    margin-inline: auto!important;
+    padding-inline: 6px;
+}
+.dark .techstack{
+    background-color: var(--cardet);
+}
