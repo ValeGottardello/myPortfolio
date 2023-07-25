@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import Arrow from './Arrow.jsx';
 
 export default function Projects () {
-    const [key, setKey] = useState('project-5');
+    const [key, setKey] = useState('project-7');
 
     return (
         <motion.div  
@@ -67,7 +67,7 @@ export default function Projects () {
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/graphQL.svg" alt="" /> 
+                          src="/images/icons/graphQL2.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
