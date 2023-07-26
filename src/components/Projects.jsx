@@ -67,11 +67,11 @@ export default function Projects () {
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/graphQL2.svg" alt="" /> 
+                          src="/images/icons/graphQL.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/mongo.svg" alt="" /> 
+                          src="/images/icons/mongodb.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-5" title="FIXUP" > 

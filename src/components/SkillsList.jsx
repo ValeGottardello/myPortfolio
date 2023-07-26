@@ -1,7 +1,9 @@
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { OverlayTrigger, Tooltip } from "react-bootstrap"; 
 
 const SkillsList = () => {
-  const items = [`html`, `css`, `javascript`,`typescript`, `react`,  `bootstrap`,`sass`, `tailwindcss`, `materialui`, `node`, `express`, `graphQL2`,`postegresql`, `firebase`, `mongo`,`git`, ];
+  const skills = [`HTML`, `CSS`, `JavaScript`,`TypeScript`, `React`, `Bootstrap`,`SASS`, `TailwindCSS`, `MaterialUI`, `Node`, `Express`, `GraphQL`,`PostegreSQL`, `Firebase`, `MongoDB`,`Git` ];
   const variants = {
     open: {
       y: 0,
@@ -19,21 +21,37 @@ const SkillsList = () => {
     }
   };
 
+  const renderTooltip = (item) => (
+    <Tooltip id={`button-tooltip-${item}`} placement="top" className="custom-tooltip">
+      {item}
+    </Tooltip>
+  );
+
   return (
-    <AnimatePresence>
-          {items.map((item, index) => ( 
+    <>
+      <AnimatePresence>
+        {skills.map((item, index) => (
+          <OverlayTrigger
+            key={index}
+            placement="top"
+            delay={{ show: 250, hide: 400 }}
+            overlay={renderTooltip(item)} 
+            className="custom-overlay-trigger"
+          >
             <motion.img
-              key={index}
               variants={variants}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               delay={index * 10}
               transition={{ type: "spring", damping: 10, stiffness: 100 }}
               src={`/images/icons/${item}.svg`}
+              alt={item} 
               className="skills-icon"
             />
-          ))}
-    </AnimatePresence>
+          </OverlayTrigger>
+        ))}
+      </AnimatePresence>
+    </>
   );
 };
 

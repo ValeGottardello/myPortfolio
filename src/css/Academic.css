@@ -19,7 +19,8 @@
     background-color: rgb(250, 246, 244);
     border-radius: 20px;
     border: 2px outset rgba(242, 223, 217, 0.6);
-    padding: 10px;;
+    padding: 10px;
+    
 }
 .dark .skills-wrapper img {
     background-color: rgba(250, 246, 244, 0.255);
@@ -38,9 +39,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
     width: 80%;
-    margin: 40px auto;
+    margin: 60px auto;
 }
 
 .education article .other-exp-sect{
