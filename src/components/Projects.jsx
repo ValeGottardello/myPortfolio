@@ -30,7 +30,7 @@ export default function Projects () {
                         </div>
                         <div className='info-project'>
                             <h3>MoviePlus</h3>
-                            <p>MoviePlus is a full-stack movie application that provides users with an immersive experience to explore movies, view detailed information, create an account, and add movies to their personal watchlist. The application is built using modern technologies like React, Tailwind CSS for the frontend, GraphQL, Apollo, MongoDB, and Node.js for the backend, ensuring a seamless and efficient user experience..</p>
+                            <p>MoviePlus is a full-stack movie application that provides users with an immersive experience to explore movies, view detailed information, create an account, and add movies to their personal watchlist. The application is built using modern technologies like React, Tailwind css for the frontend, GraphQL, Apollo, MongoDB, and node.js for the backend, ensuring a seamless and efficient user experience..</p>
                             <div className='github-link'>
                                 <motion.a href="https://github.com/ValeGottardello/movies" 
                                         whileHover={{ scale: 1.2 }}
@@ -50,20 +50,20 @@ export default function Projects () {
                             whileHover={{ scale: 1.2 }}
                            whileTap={{ scale: 0.9 }}
                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                           src="/images/icons/JavaScript.svg" alt="" /> 
+                           src="/images/icons/javascript.svg" alt="" /> 
                        <motion.img 
                             whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/React.svg" alt="" /> 
+                          src="/images/icons/react.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/TailwindCSS.svg" alt="" /> 
+                          src="/images/icons/tailwindcss.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/Node.svg" alt="" /> 
+                          src="/images/icons/node.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -115,32 +115,32 @@ export default function Projects () {
                              whileHover={{ scale: 1.2 }}
                            whileTap={{ scale: 0.9 }}
                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                           src="/images/icons/JavaScript.svg" alt="" /> 
+                           src="/images/icons/javascript.svg" alt="" /> 
                        <motion.img 
                             whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/React.svg" alt="" /> 
+                          src="/images/icons/react.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/Bootstrap.svg" alt="" /> 
+                          src="/images/icons/bootstrap.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/Node.svg" alt="" /> 
+                          src="/images/icons/node.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/Express.svg" alt="" /> 
+                          src="/images/icons/express.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/PostegreSQL.svg" alt="" /> 
+                          src="/images/icons/postegresql.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/CSS.svg" alt="" /> 
+                          src="/images/icons/css.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-6" title="Native App" > 
@@ -150,7 +150,7 @@ export default function Projects () {
                         </div>
                         <div className='info-project'>
                             <h3>Contacts App</h3>
-                            <p> This is a contact management application. It allows importing, storing, editing, and deleting contacts using a Node.js server with Express and a PostgreSQL database on the backend, and a React Native client-side user interface on the frontend.</p>
+                            <p> This is a contact management application. It allows importing, storing, editing, and deleting contacts using a node.js server with express and a PostgreSQL database on the backend, and a React Native client-side user interface on the frontend.</p>
                             <div className='github-link'>
                                 <motion.a href="https://github.com/ValeGottardello/contact-list-react-native" 
                                         whileHover={{ scale: 1.2 }}
@@ -170,27 +170,27 @@ export default function Projects () {
                             whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/JavaScript.svg" alt="" /> 
+                          src="/images/icons/javascript.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/React.svg" alt="" /> 
+                          src="/images/icons/react.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/Node.svg" alt="" /> 
+                          src="/images/icons/node.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/Express.svg" alt="" /> 
+                          src="/images/icons/express.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/PostegreSQL.svg" alt="" /> 
+                          src="/images/icons/postegresql.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/CSS.svg" alt="" /> 
+                          src="/images/icons/css.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-4" title="PLAN MY PLATE" >
@@ -226,23 +226,23 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/React.svg" alt="" /> 
+                          src="/images/icons/react.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/JavaScript.svg" alt="" /> 
+                          src="/images/icons/javascript.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/Bootstrap.svg" alt="" /> 
+                          src="/images/icons/bootstrap.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/Firebase.svg" alt="" /> 
+                          src="/images/icons/firebase.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/CSS.svg" alt="" /> 
+                          src="/images/icons/css.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-3" title="Servo API" >
@@ -271,23 +271,23 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/JavaScript.svg" alt="" /> 
+                          src="/images/icons/javascript.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/Node.svg" alt="" /> 
+                          src="/images/icons/node.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/Express.svg" alt="" /> 
+                          src="/images/icons/express.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/PostegreSQL.svg" alt="" /> 
+                          src="/images/icons/postegresql.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/CSS.svg" alt="" /> 
+                          src="/images/icons/css.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-2" title="Talker's">
@@ -297,7 +297,7 @@ export default function Projects () {
                         </div>
                         <div className='info-project'>
                             <h3>Talker's Social Media</h3>
-                            <p>Talker's app is a CRUD Web application data base backed, whose objective is users can connect each other in order to improve and practice the language skills. Users can log in, create their own profile, post and comment on themselves and other profiles. Completly handled from server side, using Node.js, Express and libraries as Ejs for the server side.</p>
+                            <p>Talker's app is a CRUD Web application data base backed, whose objective is users can connect each other in order to improve and practice the language skills. Users can log in, create their own profile, post and comment on themselves and other profiles. Completly handled from server side, using Node.js, express and libraries as Ejs for the server side.</p>
                             <div className='github-link'>
                                 <motion.a 
                                         whileHover={{ scale: 1.2 }}
@@ -316,11 +316,11 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/JavaScript.svg" alt="" /> 
+                          src="/images/icons/javascript.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/Node.svg" alt="" /> 
+                          src="/images/icons/node.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
@@ -328,7 +328,7 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/PostegreSQL.svg" alt="" /> 
+                          src="/images/icons/postegresql.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
@@ -367,19 +367,19 @@ export default function Projects () {
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/HTML.svg" alt="" /> 
+                           src="/images/icons/html.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/CSS.svg" alt="" /> 
+                           src="/images/icons/css.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/Bootstrap.svg" alt="" /> 
+                           src="/images/icons/bootstrap.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/SASS.svg" alt="" /> 
+                           src="/images/icons/sass.svg" alt="" /> 
                     </div>
                 </Tab>
             </Tabs>
@@ -396,7 +396,7 @@ export default function Projects () {
 //     </div>
 //     <div className='info-project'>
 //         <h3>Tic•Tac•Toe OR Ta•Te•Ti!</h3>
-//         <p>Classic game of circle and crosses. First project in just two weeks of learning JavaScript. Users can play eachother, track their scores and reset the game any time.</p>
+//         <p>Classic game of circle and crosses. First project in just two weeks of learning javascript. Users can play eachother, track their scores and reset the game any time.</p>
 //         <div className='github-link'>
 //             <motion.a 
 //                     whileHover={{ scale: 1.2 }}
@@ -419,7 +419,7 @@ export default function Projects () {
 //    <motion.img  whileHover={{ scale: 1.2 }}
 //       whileTap={{ scale: 0.9 }}
 //       transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-//       src="/images/icons/javaScript.svg" alt="" /> 
+//       src="/images/icons/javascript.svg" alt="" /> 
 //    <motion.img whileHover={{ scale: 1.2 }}
 //       whileTap={{ scale: 0.9 }}
 //       transition={{ type: "spring", stiffness: 400, damping: 17 }} 
