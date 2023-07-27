@@ -136,7 +136,7 @@ export default function Projects () {
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/postgresql.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -186,7 +186,7 @@ export default function Projects () {
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/postgresql.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -283,7 +283,7 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/postgresql.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
@@ -328,7 +328,7 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/postgresql.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
