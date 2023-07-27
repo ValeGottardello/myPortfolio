@@ -50,28 +50,28 @@ export default function Projects () {
                             whileHover={{ scale: 1.2 }}
                            whileTap={{ scale: 0.9 }}
                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                           src="/images/icons/javascript.svg" alt="" /> 
+                           src="/images/icons/JavaScript.svg" alt="" /> 
                        <motion.img 
                             whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/react.svg" alt="" /> 
+                          src="/images/icons/React.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/tailwindcss.svg" alt="" /> 
+                          src="/images/icons/TailwindCSS.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/node.svg" alt="" /> 
+                          src="/images/icons/Node.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/graphQL.svg" alt="" /> 
+                          src="/images/icons/GraphQL.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/mongodb.svg" alt="" /> 
+                          src="/images/icons/MongoDB.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-5" title="FIXUP" > 
@@ -115,32 +115,32 @@ export default function Projects () {
                              whileHover={{ scale: 1.2 }}
                            whileTap={{ scale: 0.9 }}
                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                           src="/images/icons/javascript.svg" alt="" /> 
+                           src="/images/icons/JavaScript.svg" alt="" /> 
                        <motion.img 
                             whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/react.svg" alt="" /> 
+                          src="/images/icons/React.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/bootstrap.svg" alt="" /> 
+                          src="/images/icons/Bootstrap.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/node.svg" alt="" /> 
+                          src="/images/icons/Node.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/express.svg" alt="" /> 
+                          src="/images/icons/Express.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/PostegreSQL.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/css.svg" alt="" /> 
+                          src="/images/icons/CSS.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-6" title="Native App" > 
@@ -170,27 +170,27 @@ export default function Projects () {
                             whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/javascript.svg" alt="" /> 
+                          src="/images/icons/JavaScript.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/react.svg" alt="" /> 
+                          src="/images/icons/React.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/node.svg" alt="" /> 
+                          src="/images/icons/Node.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/express.svg" alt="" /> 
+                          src="/images/icons/Express.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/PostegreSQL.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          src="/images/icons/css.svg" alt="" /> 
+                          src="/images/icons/CSS.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-4" title="PLAN MY PLATE" >
@@ -226,23 +226,23 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/react.svg" alt="" /> 
+                          src="/images/icons/React.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/javascript.svg" alt="" /> 
+                          src="/images/icons/JavaScript.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/bootstrap.svg" alt="" /> 
+                          src="/images/icons/Bootstrap.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/firebase.svg" alt="" /> 
+                          src="/images/icons/Firebase.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/css.svg" alt="" /> 
+                          src="/images/icons/CSS.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-3" title="Servo API" >
@@ -271,23 +271,23 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/javascript.svg" alt="" /> 
+                          src="/images/icons/JavaScript.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/node.svg" alt="" /> 
+                          src="/images/icons/Node.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/express.svg" alt="" /> 
+                          src="/images/icons/Express.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/PostegreSQL.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/css.svg" alt="" /> 
+                          src="/images/icons/CSS.svg" alt="" /> 
                     </div>
                 </Tab>
                 <Tab eventKey="project-2" title="Talker's">
@@ -316,11 +316,11 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/javascript.svg" alt="" /> 
+                          src="/images/icons/JavaScript.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/node.svg" alt="" /> 
+                          src="/images/icons/Node.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
@@ -328,7 +328,7 @@ export default function Projects () {
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/postegresql.svg" alt="" /> 
+                          src="/images/icons/PostegreSQL.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
@@ -367,19 +367,19 @@ export default function Projects () {
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/html.svg" alt="" /> 
+                           src="/images/icons/HTML.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/css.svg" alt="" /> 
+                           src="/images/icons/CSS.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/bootstrap.svg" alt="" /> 
+                           src="/images/icons/Bootstrap.svg" alt="" /> 
                        <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                           src="/images/icons/sass.svg" alt="" /> 
+                           src="/images/icons/SASS.svg" alt="" /> 
                     </div>
                 </Tab>
             </Tabs>
@@ -396,7 +396,7 @@ export default function Projects () {
 //     </div>
 //     <div className='info-project'>
 //         <h3>Tic•Tac•Toe OR Ta•Te•Ti!</h3>
-//         <p>Classic game of circle and crosses. First project in just two weeks of learning Javascript. Users can play eachother, track their scores and reset the game any time.</p>
+//         <p>Classic game of circle and crosses. First project in just two weeks of learning JavaScript. Users can play eachother, track their scores and reset the game any time.</p>
 //         <div className='github-link'>
 //             <motion.a 
 //                     whileHover={{ scale: 1.2 }}
@@ -419,7 +419,7 @@ export default function Projects () {
 //    <motion.img  whileHover={{ scale: 1.2 }}
 //       whileTap={{ scale: 0.9 }}
 //       transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-//       src="/images/icons/javascript.svg" alt="" /> 
+//       src="/images/icons/javaScript.svg" alt="" /> 
 //    <motion.img whileHover={{ scale: 1.2 }}
 //       whileTap={{ scale: 0.9 }}
 //       transition={{ type: "spring", stiffness: 400, damping: 17 }} 
