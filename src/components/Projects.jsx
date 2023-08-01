@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import Arrow from './Arrow.jsx';
 
 export default function Projects () {
-    const [key, setKey] = useState('project-7');
+    const [key, setKey] = useState('project-8');
 
     return (
         <motion.div  
@@ -18,11 +18,55 @@ export default function Projects () {
             style={{ height: "100vh" }}
             transition={{ duration: 2}}>
             <h2>My Projects</h2>
+            
             <Tabs
                 activeKey={key}
                 onSelect={(k) => setKey(k)}
                 className="mb-3 projects wrapper-tab"
                 > 
+                <Tab eventKey="project-8" title="ToDo-App" > 
+                    <div className='project-card'>
+                        <div className='screen'>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IUJnaxgvIwo?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        </div>
+                        <div className='info-project'>
+                            <h3>To-do App</h3>
+                            <p>My first TypeScript Project: A simple and efficient to-do app built with React and TypeScript. It allows users to effortlessly add, edit, and remove tasks from the task board, with three simple filters for active, all, and completed tasks.</p>
+                            <div className='github-link'>
+                                <motion.a href="https://github.com/ValeGottardello/todoTypeScript/" 
+                                        whileHover={{ scale: 1.2 }}
+                                        whileTap={{ scale: 1.1 }}
+                                        drag="x"
+                                        dragConstraints={{ left: -100, right: 100 }}
+                                        target="_blank"
+                                        >GitHub Code</motion.a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='skills-used'>
+                        <div style={{width: '100%', marginBottom: 0}}>
+                            <h2 className='techstack' style={{ textAlign: "center", fontSize: "1.5rem", width: 'auto', borderBottom:'0px'}}>TECH STACK</h2>
+                        </div>
+                        <motion.img whileHover={{ scale: 1.2 }}
+                           whileTap={{ scale: 0.9 }}
+                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                           src="/images/icons/typescript.svg" alt="" /> 
+                        <motion.img 
+                            whileHover={{ scale: 1.2 }}
+                           whileTap={{ scale: 0.9 }}
+                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                           src="/images/icons/javascript.svg" alt="" /> 
+                       <motion.img 
+                            whileHover={{ scale: 1.2 }}
+                          whileTap={{ scale: 0.9 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                          src="/images/icons/react.svg" alt="" /> 
+                       <motion.img whileHover={{ scale: 1.2 }}
+                          whileTap={{ scale: 0.9 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                          src="/images/icons/node.svg" alt="" /> 
+                    </div>
+                </Tab>
                 <Tab eventKey="project-7" title="MoviePlus" > 
                     <div className='project-card'>
                         <div className='screen'>
@@ -30,7 +74,7 @@ export default function Projects () {
                         </div>
                         <div className='info-project'>
                             <h3>MoviePlus</h3>
-                            <p>MoviePlus is a full-stack movie application that provides users with an immersive experience to explore movies, view detailed information, create an account, and add movies to their personal watchlist. The application is built using modern technologies like React, Tailwind css for the frontend, GraphQL, Apollo, MongoDB, and node.js for the backend, ensuring a seamless and efficient user experience..</p>
+                            <p>MoviePlus is a full-stack movie application that provides users with an immersive experience to explore movies, view detailed information, create an account, and add movies to their personal watchlist. The application is built using modern technologies like React, Tailwind css for the frontend, GraphQL, Apollo, MongoDB, and node.js for the backend, ensuring a seamless and efficient user experience.</p>
                             <div className='github-link'>
                                 <motion.a href="https://github.com/ValeGottardello/movies" 
                                         whileHover={{ scale: 1.2 }}
@@ -81,7 +125,7 @@ export default function Projects () {
                         </div>
                         <div className='info-project'>
                             <h3>FIX•UP</h3>
-                            <p> Workspace application for a small/medium business. Where users can log in as a company or as a dependent, be registered as employees of a particular company, manage their availability, clock in/out (remaining from the current hours), view their assigned tasks and check that they are done, create and assign new tasks..</p>
+                            <p> Workspace application for a small/medium business. Where users can log in as a company or as a dependent, be registered as employees of a particular company, manage their availability, clock in/out (remaining from the current hours), view their assigned tasks and check that they are done, create and assign new tasks.</p>
                             <div className='github-link'>
                                 <motion.a href="https://github.com/ValeGottardello/dashboard" 
                                         whileHover={{ scale: 1.2 }}
@@ -196,7 +240,7 @@ export default function Projects () {
                 <Tab eventKey="project-4" title="PLAN MY PLATE" >
                     <div className='project-card'>
                         <div className='screen'>
-                            <img src="/images/planmyplate.png" alt="alternative img demo navegating through the website" />
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SGjiXhLYmYk?controls=0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className='info-project'>
                             <h3>PLAN MY PLATE</h3>
@@ -239,51 +283,6 @@ export default function Projects () {
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
                           src="/images/icons/firebase.svg" alt="" /> 
-                        <motion.img whileHover={{ scale: 1.2 }}
-                          whileTap={{ scale: 0.9 }}
-                          transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/css.svg" alt="" /> 
-                    </div>
-                </Tab>
-                <Tab eventKey="project-3" title="Servo API" >
-                    <div className='project-card'>
-                        <div className='screen'>
-                            <img src="/images/mapapi.png" alt="alternative img demo navegating through the website" />
-                        </div>
-                        <div className='info-project'>
-                            <h3>Servo API</h3>
-                            <p>Single Page Application using its own REST JSON API to display all petrol stations that are inside of the boundaries based on current location, is displayed using the Google Maps API. Team project motivated to handle GitHub instance in a collaborative project.</p>
-                            <div className='github-link'>
-                                <motion.a 
-                                        whileHover={{ scale: 1.2 }}
-                                        whileTap={{ scale: 1.1 }}
-                                        drag="x"
-                                        dragConstraints={{ left: -100, right: 100 }}
-                                        target="_blank" 
-                                        href="https://github.com/ValeGottardello/Project3">GitHub Code</motion.a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='skills-used'>
-                        <div style={{width: '100%', marginBottom: 0}}>
-                            <h2 className='techstack' style={{ textAlign: "center", fontSize: "1.5rem", width: 'auto', borderBottom:'0px'}}>TECH STACK</h2>
-                        </div>
-                        <motion.img whileHover={{ scale: 1.2 }}
-                          whileTap={{ scale: 0.9 }}
-                          transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/javascript.svg" alt="" /> 
-                        <motion.img whileHover={{ scale: 1.2 }}
-                          whileTap={{ scale: 0.9 }}
-                          transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/node.svg" alt="" /> 
-                        <motion.img whileHover={{ scale: 1.2 }}
-                          whileTap={{ scale: 0.9 }}
-                          transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/express.svg" alt="" /> 
-                        <motion.img whileHover={{ scale: 1.2 }}
-                          whileTap={{ scale: 0.9 }}
-                          transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          src="/images/icons/postgresql.svg" alt="" /> 
                         <motion.img whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.9 }}
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
@@ -429,4 +428,49 @@ export default function Projects () {
 //       transition={{ type: "spring", stiffness: 400, damping: 17 }} 
 //        src="/images/icons/css.svg" alt="" /> 
 // </div>
-// </Tab> */}
+// </Tab> 
+/* <Tab eventKey="project-3" title="Servo API" >
+<div className='project-card'>
+    <div className='screen'>
+        <img src="/images/mapapi.png" alt="alternative img demo navegating through the website" />
+    </div>
+    <div className='info-project'>
+        <h3>Servo API</h3>
+        <p>Single Page Application using its own REST JSON API to display all petrol stations that are inside of the boundaries based on current location, is displayed using the Google Maps API. Team project motivated to handle GitHub instance in a collaborative project.</p>
+        <div className='github-link'>
+            <motion.a 
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 1.1 }}
+                    drag="x"
+                    dragConstraints={{ left: -100, right: 100 }}
+                    target="_blank" 
+                    href="https://github.com/ValeGottardello/Project3">GitHub Code</motion.a>
+        </div>
+    </div>
+</div>
+<div className='skills-used'>
+    <div style={{width: '100%', marginBottom: 0}}>
+        <h2 className='techstack' style={{ textAlign: "center", fontSize: "1.5rem", width: 'auto', borderBottom:'0px'}}>TECH STACK</h2>
+    </div>
+    <motion.img whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }} 
+      src="/images/icons/javascript.svg" alt="" /> 
+    <motion.img whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }} 
+      src="/images/icons/node.svg" alt="" /> 
+    <motion.img whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }} 
+      src="/images/icons/express.svg" alt="" /> 
+    <motion.img whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }} 
+      src="/images/icons/postgresql.svg" alt="" /> 
+    <motion.img whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }} 
+      src="/images/icons/css.svg" alt="" /> 
+</div>
+</Tab>*/
