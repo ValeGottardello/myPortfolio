@@ -3,7 +3,7 @@
     margin: 30px auto;
 }
 .projects li button{
-    font-size:0.9rem;
+    font-size:0.9rem!important;
     text-transform: uppercase;
     font-family: var(--font-titles);
 }
@@ -58,8 +58,8 @@
     flex-wrap: wrap;
 }
 .skills-used img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     margin:0 5px;
 }
 
@@ -78,7 +78,7 @@
 
 .project-card div h3 {
     font-family: var(--font-titles);
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
 }
 .tictactoe{
@@ -90,7 +90,8 @@
 
 .light .nav-tabs li button {
     color: var( --rose-taupe);
-    border-inline-end-color: #b3b1b6e1!important;
+    border-color: #b3b1b6e1!important;
+    /* border-inline-end-color: #b3b1b6e1!important; */
     border-inline-end-width: 2px!important;
 }
 

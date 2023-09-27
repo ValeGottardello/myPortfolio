@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import Arrow from './Arrow.jsx';
 
 export default function Projects () {
-    const [key, setKey] = useState('project-8');
+    const [key, setKey] = useState('project-9');
 
     return (
         <motion.div  
@@ -17,13 +17,67 @@ export default function Projects () {
             whileInView={{ opacity: 1 }}
             style={{ height: "100vh" }}
             transition={{ duration: 2}}>
-            <h2>My Projects</h2>
+            <h2>Recent Projects</h2>
             
             <Tabs
                 activeKey={key}
                 onSelect={(k) => setKey(k)}
                 className="mb-3 projects wrapper-tab"
                 > 
+                <Tab eventKey="project-9" title="Clone-Translate" > 
+                    <div className='project-card'>
+                        <div className='screen'>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DUg8X0dKKjo?si=1LMFjVHkObx0-yTV?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        </div>
+                        <div className='info-project'>
+                            <h3>Clone Translate App</h3>
+                            <p>This project is a Full Stack Application, utilizing TypeScript, React and Vite. It features sophisticated implementations of useReducer and useDebounce, enhancing the efficiency of user status management and interactions. This project encompasses both the frontend and backend, as I have designed the server side using Node.js and integrated a third-party service, OpenAI's GPT-3.5-turbo model.</p>
+                            <div className='github-link'>
+                                <motion.a href="https://github.com/ValeGottardello/apiCloneTranslate" 
+                                        whileHover={{ scale: 1.2 }}
+                                        whileTap={{ scale: 1.1 }}
+                                        drag="x"
+                                        dragConstraints={{ left: -100, right: 100 }}
+                                        target="_blank"
+                                        >GitHub Code</motion.a>
+                                <motion.a href="https://github.com/ValeGottardello/translateClone" 
+                                        whileHover={{ scale: 1.2 }}
+                                        whileTap={{ scale: 1.1 }}
+                                        drag="x"
+                                        dragConstraints={{ left: -100, right: 100 }}
+                                        target="_blank"
+                                        >GitHub Code Server</motion.a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='skills-used'>
+                        <div style={{width: '100%', marginBottom: 0}}>
+                            <h2 className='techstack' style={{ textAlign: "center", fontSize: "1.5rem", width: 'auto', borderBottom:'0px'}}>TECH STACK</h2>
+                        </div>
+                        <motion.img whileHover={{ scale: 1.2 }}
+                           whileTap={{ scale: 0.9 }}
+                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                           src="/images/icons/typescript.svg" alt="" /> 
+                        <motion.img 
+                            whileHover={{ scale: 1.2 }}
+                           whileTap={{ scale: 0.9 }}
+                           transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                           src="/images/icons/javascript.svg" alt="" /> 
+                       <motion.img 
+                            whileHover={{ scale: 1.2 }}
+                          whileTap={{ scale: 0.9 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                          src="/images/icons/react.svg" alt="" /> 
+                       <motion.img whileHover={{ scale: 1.2 }}
+                          whileTap={{ scale: 0.9 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                          src="/images/icons/node.svg" alt="" /> 
+                        <motion.img whileHover={{ scale: 1.2 }}
+                          whileTap={{ scale: 0.9 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                          src="/images/icons/bootstrap.svg" alt="" /> 
+                    </div>
+                </Tab>
                 <Tab eventKey="project-8" title="ToDo-App" > 
                     <div className='project-card'>
                         <div className='screen'>
@@ -334,7 +388,7 @@ export default function Projects () {
                           src="/images/icons/css.svg" alt="" /> 
                     </div>
                 </Tab>
-                <Tab eventKey="project-0" title="Mobilia" >
+                {/* <Tab eventKey="project-0" title="Mobilia" >
                     <div className='project-card'>
                         <div className='screen'>
                             <img src="/images/mobilia.png" alt="alternative img demo navegating through the website" />
@@ -380,7 +434,7 @@ export default function Projects () {
                           transition={{ type: "spring", stiffness: 400, damping: 17 }} 
                            src="/images/icons/sass.svg" alt="" /> 
                     </div>
-                </Tab>
+                </Tab> */}
             </Tabs>
             <Arrow page={"#academic"}/>
         </motion.div>
