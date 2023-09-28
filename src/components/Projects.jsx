@@ -33,14 +33,14 @@ export default function Projects () {
                             <h3>Clone Translate App</h3>
                             <p>This project is a Full Stack Application, utilizing TypeScript, React and Vite. It features sophisticated implementations of useReducer and useDebounce, enhancing the efficiency of user status management and interactions. This project encompasses both the frontend and backend, as I have designed the server side using Node.js and integrated a third-party service, OpenAI's GPT-3.5-turbo model.</p>
                             <div className='github-link'>
-                                <motion.a href="https://github.com/ValeGottardello/apiCloneTranslate" 
+                                <motion.a href="https://github.com/ValeGottardello/translateClone" 
                                         whileHover={{ scale: 1.2 }}
                                         whileTap={{ scale: 1.1 }}
                                         drag="x"
                                         dragConstraints={{ left: -100, right: 100 }}
                                         target="_blank"
                                         >GitHub Code</motion.a>
-                                <motion.a href="https://github.com/ValeGottardello/translateClone" 
+                                <motion.a href="https://github.com/ValeGottardello/apiCloneTranslate" 
                                         whileHover={{ scale: 1.2 }}
                                         whileTap={{ scale: 1.1 }}
                                         drag="x"
