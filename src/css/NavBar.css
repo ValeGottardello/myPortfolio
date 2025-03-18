@@ -6,7 +6,20 @@
     position: sticky!important;
     top: 0;
 }
-
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.light .darkHitNote {
+    font-size: 0.7rem;
+    color: rgb(143, 61, 67);
+}
+.dark .darkHitNote {
+    font-size: 0.7rem;
+    color: #f66e1a;
+}
 .light .main nav {
     background-color: rgba(126, 91, 95, 0.508);
 }

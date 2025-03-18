@@ -14,12 +14,17 @@ function NavBar() {
   
     const toggleDarkMode = () => {
       setDarkMode(!darkMode);
-      if (document.body.classList.contains('dark')) {
-        document.body.classList.remove('dark');
-        document.body.classList.add('light');
+      const body = document.body;
+      const note = document.querySelector('.hitNote'); // Selecciona el elemento con la clase 'hitNote'
+  
+      if (body.classList.contains('dark')) {
+          body.classList.remove('dark');
+          body.classList.add('light');
+          if (note) note.innerHTML = "Too bright? Hit the moon icon for dark mode!";
       } else {
-        document.body.classList.remove('light');
-        document.body.classList.add('dark');
+          body.classList.remove('light');
+          body.classList.add('dark');
+          if (note) note.innerHTML = "Too dark? Hit the moon icon for light mode!";
       }
     };
   
@@ -28,13 +33,11 @@ function NavBar() {
         <BodyClass className={darkMode ? 'dark' : 'light'}/>
         <Navbar expand="lg">
             <Navbar.Brand>
-            <h5 className='mode' onClick={toggleDarkMode}>{darkMode ? <MdDarkMode/> : <MdOutlineDarkMode/>}</h5><motion.a href="#welcome" 
-                          whileHover={{ scale: 1.2 }}
-                          whileTap={{ scale: 0.9 }}
-                          transition={{ type: "spring", stiffness: 400, damping: 17 }} 
-                          className="vg-icon"
-                          >Valentina G.</motion.a>
-                          </Navbar.Brand>
+              <h5 className='mode' onClick={toggleDarkMode}>{darkMode ? <MdDarkMode/> : <MdOutlineDarkMode/>}</h5>
+              <span className='darkHitNote' id="hitNote">
+                  Too bright? Hit the moon icon for dark mode!
+              </span>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav> 
