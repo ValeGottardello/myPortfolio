@@ -9,7 +9,7 @@ const SkillsList = () => {
     `typescript`,
     `express`,
     `node`,
-    `cSharp`,
+    `csharp`,
     `php`,
     `GraphQL`,
     `MongoDB`,
