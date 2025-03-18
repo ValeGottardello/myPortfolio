@@ -45,7 +45,7 @@ export default function Welcome () {
                             repeatDelay: 1
                           }}
                     />
-                    <img src="/images/mypic.png" className='mypicture' alt="" />
+                    <img src="/images/photo.jpg" className='mypicture' alt="" />
                 </div>
             </div>
         </motion.div>

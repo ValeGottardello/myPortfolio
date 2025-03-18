@@ -15,7 +15,7 @@ function NavBar() {
     const toggleDarkMode = () => {
       setDarkMode(!darkMode);
       const body = document.body;
-      const note = document.querySelector('.hitNote'); // Selecciona el elemento con la clase 'hitNote'
+      const note = document.querySelector('#hitNote'); 
   
       if (body.classList.contains('dark')) {
           body.classList.remove('dark');
