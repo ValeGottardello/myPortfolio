@@ -99,7 +99,7 @@
     margin: 10px 0;
 } 
 .contact-sect div {
-    text-align: justify;
+    text-align: start;
     display: flex;
     flex-direction: column;
     gap: 20px;

@@ -23,14 +23,14 @@ export default function Academic () {
                     <h2>Other expiriences</h2>
                     <div className='other-exp-sect'>
                         <div>
-                            <h3>Customer Service</h3>
+                            <h3>Tech Field</h3>
                             <ul>
-                                <li>Brooklyn Cocktail Bar - Bartender.</li>
-                                <span>Melbourne,  Australia.</span>
-                                <span>Aug 2022 - Feb 2023</span>
-                                <li>La Drogheria Cocktail Bar - Bartender & Runner</li>
-                                <span>Turin,  Italy.</span>
-                                <span>Jun 2021 - Jan 2022</span>
+                                <li>Software Developer at EntrustICT.</li>
+                                <span>Melbourne, Australia.</span>
+                                <span>Oct 2024 - Currently</span>
+                                <li>Junior Software Developer at EntrustICT.</li>
+                                <span>Melbourne, Australia.</span>
+                                <span>Oct 2023 - Sep 2024</span>
                             </ul>
                         </div>
                         <div>

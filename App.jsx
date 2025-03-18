@@ -28,7 +28,7 @@ function App () {
                 <li><a href='mailto:valengottardello37@gmail.com?subject=Change%20the%20subject&body=Hi%20Valentina!'><MdOutlineMail/></a></li>
                 <li><a href='https://www.linkedin.com/in/valentinagottardello/' target="_blank" rel="noreferrer"><FaLinkedin/></a></li>
                 <li><a href='https://github.com/ValeGottardello/' target="_blank" rel="noreferrer"><FaGithub/></a></li>
-                <li><a href="/cv/CV_Gottardello.pdf" target="_blank"><FaRegClipboard/></a></li>
+                <li><a href="/cv/cv_Valentina.pdf" target="_blank"><FaRegClipboard/></a></li>
             </ul>
           </footer>
       </div>

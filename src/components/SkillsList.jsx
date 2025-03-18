@@ -3,7 +3,28 @@ import { motion, AnimatePresence } from "framer-motion";
 import { OverlayTrigger, Tooltip } from "react-bootstrap"; 
 
 const SkillsList = () => {
-  const skills = [`html`, `css`, `javascript`,`typescript`, `react`, `bootstrap`,`sass`, `tailwindcss`, `materialui`, `node`, `express`, `GraphQL`,`postgresql`, `firebase`, `MongoDB`,`git`, `php`, `mysql`, `wordpresss`];
+  const skills = [
+    `javascript`,
+    `react`,
+    `typescript`,
+    `express`,
+    `node`,
+    `cSharp`,
+    `php`,
+    `GraphQL`,
+    `MongoDB`,
+    `postgresql`,
+    `mysql`,
+    `azure`,
+    `bootstrap`,
+    `sass`,
+    `tailwindcss`,
+    `materialui`,
+    `wordpress`,
+    `bitbucket`,
+    `jira`,
+    `git`,
+  ];
   const variants = {
     open: {
       y: 0,
